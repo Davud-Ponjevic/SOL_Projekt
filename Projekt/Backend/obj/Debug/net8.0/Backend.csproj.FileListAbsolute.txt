@@ -78,3 +78,4 @@ C:\Github\SOL_Projekt\Projekt\Backend\obj\Debug\net8.0\refint\Backend.dll
 C:\Github\SOL_Projekt\Projekt\Backend\obj\Debug\net8.0\Backend.pdb
 C:\Github\SOL_Projekt\Projekt\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 C:\Github\SOL_Projekt\Projekt\Backend\obj\Debug\net8.0\ref\Backend.dll
+C:\Github\SOL_Projekt\Projekt\Backend\obj\Debug\net8.0\Backend.sourcelink.json
