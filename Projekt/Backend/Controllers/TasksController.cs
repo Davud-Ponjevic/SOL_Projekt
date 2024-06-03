@@ -7,8 +7,6 @@ using System.Linq;
 
 namespace Backend.Controller
 {
-
-
     [Route("api/[controller]")]
     [ApiController]
     public class TasksController : ControllerBase
@@ -24,14 +22,14 @@ namespace Backend.Controller
         [HttpGet]
         public IEnumerable<ToDoTask> GetTasks()
         {
-            return _context.Tasks.ToList();
+            return _context.ToDoTasks.ToList();
         }
 
         // GET: api/Tasks/5
         [HttpGet("{id}")]
         public ActionResult<ToDoTask> GetTask(int id)
         {
-            var task = _context.Tasks.Find(id);
+            var task = _context.ToDoTasks.Find(id);
 
             if (task == null)
             {
@@ -45,7 +43,7 @@ namespace Backend.Controller
         [HttpPost]
         public ActionResult<ToDoTask> PostTask(ToDoTask task)
         {
-            _context.Tasks.Add(task);
+            _context.ToDoTasks.Add(task);
             _context.SaveChanges();
 
             return CreatedAtAction(nameof(GetTask), new { id = task.Id }, task);
@@ -70,17 +68,16 @@ namespace Backend.Controller
         [HttpDelete("{id}")]
         public IActionResult DeleteTask(int id)
         {
-            var task = _context.Tasks.Find(id);
+            var task = _context.ToDoTasks.Find(id);
             if (task == null)
             {
                 return NotFound();
             }
 
-            _context.Tasks.Remove(task);
+            _context.ToDoTasks.Remove(task);
             _context.SaveChanges();
 
             return NoContent();
         }
     }
 }
-

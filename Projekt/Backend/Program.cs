@@ -24,11 +24,15 @@ namespace Backend
                     webBuilder.ConfigureServices((hostContext, services) =>
                     {
                         services.AddControllers();
+
                         // Swagger-Dienste hinzufügen
                         services.AddSwaggerGen(c =>
                         {
                             c.SwaggerDoc("v1", new OpenApiInfo { Title = "Backend", Version = "v1" });
                         });
+
+                        // EndpointsApiExplorer-Dienste hinzufügen
+                        services.AddEndpointsApiExplorer();
 
                         // Konfiguration laden
                         var configuration = new ConfigurationBuilder()
@@ -45,21 +49,41 @@ namespace Backend
                             options.UseSqlServer(connectionString);
                         });
 
-
                         // Weitere Dienste registrieren...
+
+                        // CORS-Konfiguration hinzufügen
+                        var allowedOrigins = configuration["CORS:AllowedOrigins"]?.Split(',') ?? new string[0];
+                        services.AddCors(options =>
+                        {
+                            options.AddPolicy("CorsPolicy", policy =>
+                            {
+                                policy.WithOrigins(allowedOrigins)
+                                    .AllowAnyHeader()
+                                    .AllowAnyMethod();
+                            });
+                        });
                     });
 
                     webBuilder.Configure(app =>
                     {
-                        // Middleware für Swagger aktivieren
-                        app.UseSwagger();
-                        app.UseSwaggerUI(c =>
+                        var env = app.ApplicationServices.GetRequiredService<IWebHostEnvironment>();
+
+                        if (env.IsDevelopment())
                         {
-                            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Backend");
-                        });
+                            // Middleware für Swagger aktivieren
+                            app.UseSwagger();
+                            app.UseSwaggerUI(c =>
+                            {
+                                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Backend");
+                            });
+                        }
 
                         app.UseRouting();
                         app.UseAuthorization();
+
+                        // UseCors Middleware hinzufügen
+                        app.UseCors("CorsPolicy");
+
                         app.UseEndpoints(endpoints =>
                         {
                             endpoints.MapControllers();

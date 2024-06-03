@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task and Event Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="Task_fetch.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei unserer To-DO Web-App</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Seite</a></li>
+                <li><a href="events.html">Neue Termin hinzufügen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formular zum Hinzufügen einer Aufgabe -->
+    <form id="taskForm">
+        <h2>Add Task</h2>
+        <label for="taskTitle">Title:</label>
+        <input type="text" id="taskTitle" name="title" required>
+        <label for="taskNote">Note:</label>
+        <textarea id="taskNote" name="note"></textarea>
+        <label for="taskDueDate">Due Date:</label>
+        <input type="date" id="taskDueDate" name="dueDate" required>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <div id="tasks">
+        <!-- Hier werden die Aufgaben angezeigt -->
+    </div>
+
+    
+</body>
+</html>

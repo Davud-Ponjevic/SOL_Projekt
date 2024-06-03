@@ -7,7 +7,6 @@ using System.Linq;
 
 namespace Backend.Controllers
 {
-
     [Route("api/[controller]")]
     [ApiController]
     public class EventsController : ControllerBase
@@ -23,14 +22,14 @@ namespace Backend.Controllers
         [HttpGet]
         public IEnumerable<CalendarEvent> GetEvents()
         {
-            return _context.Events.ToList();
+            return _context.CalendarEvents.ToList();
         }
 
         // GET: api/Events/5
         [HttpGet("{id}")]
         public ActionResult<CalendarEvent> GetEvent(int id)
         {
-            var calendarEvent = _context.Events.Find(id);
+            var calendarEvent = _context.CalendarEvents.Find(id);
 
             if (calendarEvent == null)
             {
@@ -44,7 +43,7 @@ namespace Backend.Controllers
         [HttpPost]
         public ActionResult<CalendarEvent> PostEvent(CalendarEvent calendarEvent)
         {
-            _context.Events.Add(calendarEvent);
+            _context.CalendarEvents.Add(calendarEvent);
             _context.SaveChanges();
 
             return CreatedAtAction(nameof(GetEvent), new { id = calendarEvent.Id }, calendarEvent);
@@ -69,13 +68,20 @@ namespace Backend.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteEvent(int id)
         {
-            var calendarEvent = _context.Events.Find(id);
+            var calendarEvent = _context.CalendarEvents.Find(id);
             if (calendarEvent == null)
             {
                 return NotFound();
             }
 
-            _context.Events.Remove(calendarEvent);
+            // Löschen Sie zuerst die verknüpften Aufgaben
+            var tasksToDelete = _context.ToDoTasks.Where(t => t.Id == id);
+            _context.ToDoTasks.RemoveRange(tasksToDelete);
+
+            // Dann löschen Sie das Ereignis
+            _context.CalendarEvents.Remove(calendarEvent);
+
+            // Speichern Sie die Änderungen
             _context.SaveChanges();
 
             return NoContent();

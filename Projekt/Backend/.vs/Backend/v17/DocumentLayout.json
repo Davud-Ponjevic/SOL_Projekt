@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\models\\calendarevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:models\\calendarevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|c:\\github\\sol_projekt\\projekt\\backend\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0427285C-C47C-4D9A-ADAB-50CF0064AA51}|Backend.csproj|solutionrelative:appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -91,51 +103,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\AppDBContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "AppDBContext\\AppDbContext.cs",
-              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\AppDBContext\\AppDbContext.cs",
-              "RelativeToolTip": "AppDBContext\\AppDbContext.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:04:46.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CalendarEvent.cs",
-              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Models\\CalendarEvent.cs",
-              "RelativeDocumentMoniker": "Models\\CalendarEvent.cs",
-              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Models\\CalendarEvent.cs",
-              "RelativeToolTip": "Models\\CalendarEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T09:56:35.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-16T09:37:24.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwEcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T09:36:24.569Z",
               "EditorCaption": ""
@@ -143,15 +116,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Controllers\\TasksController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:21:16.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Controllers\\EventsController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowDkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:35:11.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\AppDBContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDBContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\AppDBContext\\AppDbContext.cs",
+              "RelativeToolTip": "AppDBContext\\AppDbContext.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:04:46.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CalendarEvent.cs",
+              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Models\\CalendarEvent.cs",
+              "RelativeDocumentMoniker": "Models\\CalendarEvent.cs",
+              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Models\\CalendarEvent.cs",
+              "RelativeToolTip": "Models\\CalendarEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:56:35.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-16T09:37:24.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Backend.http",
+              "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Backend.http",
+              "RelativeDocumentMoniker": "Backend.http",
+              "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Backend.http",
+              "RelativeToolTip": "Backend.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-17T14:36:24.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ToDoTask.cs",
               "DocumentMoniker": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Models\\ToDoTask.cs",
               "RelativeDocumentMoniker": "Models\\ToDoTask.cs",
               "ToolTip": "C:\\Github\\SOL_Projekt\\Projekt\\Backend\\Models\\ToDoTask.cs",
               "RelativeToolTip": "Models\\ToDoTask.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T13:08:10.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T13:08:10.16Z"
             }
           ]
         },
@@ -162,10 +209,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
