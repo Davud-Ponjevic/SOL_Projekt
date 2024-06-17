@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Management</title>
+    <title>Aufgaben Hinzufügen</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="posts_fetch.js"></script>
 </head>
 <body>
     <header class="bg-primary text-white text-center py-3">
-        <h1>Willkommen bei unserer To-DO Web-App</h1>
+        <h1>Übersicht</h1>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home Seite</a></li>
                 <li class="nav-item"><a class="nav-link" href="tasks.html">Neue Aufgabe hinzufügen</a></li>
-                <li class="nav-item"><a class="nav-link" href="posts.html">Übersicht</a></li>
             </ul>
         </nav>
     </header>
     <main class="container mt-4">
-        <section class="mb-4">
-            <h2>Haben sie in kürze einen Aufgabe welche sie erledigen müssen</h2>
-            <p>Hinterlegen sie diese Aufgabe jetzt um es sicherich nicht zu vergessen</p>
-            <a href="tasks.html" class="btn btn-primary">Aufgaben</a>
+        <section id="tasksSection" class="mb-4">
+            <h2>Was ich zu tun habe</h2>
+            <div id="tasks">
+                <!-- Hier werden die Aufgaben angezeigt -->
+            </div>
         </section>
-    
+        
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>

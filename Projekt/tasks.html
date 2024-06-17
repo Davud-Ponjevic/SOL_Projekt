@@ -3,37 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task and Event Management</title>
+    <title>Task Management</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="Task_fetch.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Willkommen bei unserer To-DO Web-App</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home Seite</a></li>
-                <li><a href="events.html">Neue Termin hinzufügen</a></li>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Aufgaben Hinzufügen</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home Seite</a></li>
+                <li class="nav-item"><a class="nav-link" href="posts.html">Übersicht</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Formular zum Hinzufügen einer Aufgabe -->
-    <form id="taskForm">
-        <h2>Add Task</h2>
-        <label for="taskTitle">Title:</label>
-        <input type="text" id="taskTitle" name="title" required>
-        <label for="taskNote">Note:</label>
-        <textarea id="taskNote" name="note"></textarea>
-        <label for="taskDueDate">Due Date:</label>
-        <input type="date" id="taskDueDate" name="dueDate" required>
-        <button type="submit">Add Task</button>
-    </form>
+    <main class="container mt-4">
+        <form id="taskForm" class="mb-4">
+            <h2>Add Task</h2>
+            <div class="form-group">
+                <label for="taskTitle">Title:</label>
+                <input type="text" class="form-control" id="taskTitle" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="taskNote">Note:</label>
+                <textarea class="form-control" id="taskNote" name="note"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="taskDueDate">Due Date:</label>
+                <input type="date" class="form-control" id="taskDueDate" name="dueDate" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Task</button>
+        </form>
 
-    <div id="tasks">
-        <!-- Hier werden die Aufgaben angezeigt -->
-    </div>
-
-    
+        <div id="tasks">
+            <!-- Hier werden die Aufgaben angezeigt -->
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
